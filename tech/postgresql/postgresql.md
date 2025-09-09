@@ -133,3 +133,8 @@ pg_hba.confを編集する、もしくは、次回initdbを実行する時に -A
 
     ^"E^:^\middleware^\PostgreSQL^\13^\bin^\pg^_ctl^" -D ^"S^:^\CCSWORK^\ueno^\data^" -l ログファイル start
 ```
+
+## 新しいクラスタをwindowsサービスに登録
+```
+d:\middleware\PostgreSQL\13\bin\pg_ctl.exe register -N mypostgres -D E:\CCSWORK\ueno\data.org
+```
