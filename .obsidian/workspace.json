@@ -73,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "ファイルエクスプローラ"
+              "title": "Files"
             }
           },
           {
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "postgresqlからのアウトゴーイングリンク"
+              "title": "Outgoing links from postgresql"
             }
           },
           {
@@ -189,17 +189,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "dae2cf0869f947cc",
+  "active": "b75a40d73b36a764",
   "lastOpenFiles": [
+    "android.md",
     "tech/postgresql/postgres-misc.md",
     "aws/static page.md",
     "github.md",
